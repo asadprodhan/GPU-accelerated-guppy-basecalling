@@ -44,7 +44,7 @@ The GPU-accelerated guppy basecalling is such an example of GPU applications in 
 - NVIDIA GPU device. GPU-accelerated guppy is built around the NVIDIA GPU device. Therefore, your computer must have one or more NVIDIA GPUs
 
 
-- NVIDIA GPU device driver. Install the NVIDIA GPU device driver. This also automatically installs’ nvidia-smi’, a utility tool to monitor the GPU device performance. ‘smi’ stands for ‘system management interface’
+- NVIDIA GPU device driver. Install the NVIDIA GPU device driver. This also automatically installs 'nvidia-smi’, a utility tool to monitor the GPU device performance. ‘smi’ stands for ‘system management interface’
 
 
 - CUDA (Compute Unified Device Architecture). You must have ‘CUDA’ installed. CUDA is a programming language. It has been used to write the NVIDIA GPU kernel (set of instructions) as well as the codes of the GPU-capable application that will be run on the NVIDIA GPU devices. Therefore, CUDA acts as a bridge between the application (GPU-enabled guppy in this case) and the NVIDIA GPU devices. CUDA issues and manages workloads on the NVIDIA GPU devices. In other words, it orchestrates the parallel computing in the NVIDIA GPUs. Furthermore, CUDA can also be used in other languages such as C, C++, Fortran, Python and MATLAB to develop softwares featuring parallel computing
