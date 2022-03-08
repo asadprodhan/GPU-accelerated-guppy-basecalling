@@ -1,4 +1,4 @@
-# GPU accelerated guppy basecalling
+# GPU-accelerated guppy basecalling
 
 <br />
 <br />
