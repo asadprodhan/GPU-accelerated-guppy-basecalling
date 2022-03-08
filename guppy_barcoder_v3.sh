@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+guppy_barcoder --disable_pings -i /media/Disk/nanobacto20220211/basecalls/pass -s /media/Disk/nanobacto20220211 --barcode_kits EXP-PBC001 -x 'cuda:0' --trim_barcodes --trim_adapters --recursive --compress_fastq 
