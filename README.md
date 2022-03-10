@@ -41,6 +41,9 @@ The GPU-accelerated guppy basecalling is such an example of GPU applications in 
 ## **Requirements**
 
 
+This tutorial has been written for Ubuntu 18.04 Operating System on Linux.
+
+
 - NVIDIA GPU device. GPU-accelerated guppy is built around the NVIDIA GPU device. Therefore, your computer must have one or more NVIDIA GPUs
 
 
