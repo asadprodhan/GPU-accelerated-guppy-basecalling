@@ -2,24 +2,6 @@
 
 <br />
 <br />
-
-
-
-<p align="center">
-  <img 
-    width="795"
-    height="397"
-    src="https://github.com/asadprodhan/GPU-accelerated-guppy-basecalling/blob/main/MinION_V3.PNG"
-  >
-</p>
-
-<p align = "center">
-Oxford Nanopore Sequencing
-</p>
-
-
-
-
 <p align="center">
   <img 
     width="795"
