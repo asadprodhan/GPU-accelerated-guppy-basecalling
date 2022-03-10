@@ -156,6 +156,27 @@ guppy_basecaller --print_workflows | grep SQK-LSK110
 
 
 
+### **Basecalling progress**
+
+
+Once the basecalling starts, it will display a progress status bar till the completion:
+
+
+
+<p align="center">
+  <img 
+    width="799"
+    height="193"
+    src="https://github.com/asadprodhan/GPU-accelerated-guppy-basecalling/blob/main/guppy_progress_status.png"
+  >
+</p>
+
+<p align = "center">
+Basecalling status
+</p>
+
+
+
 ## **How to find whether my GPU is running in full capacity?**
 
 
