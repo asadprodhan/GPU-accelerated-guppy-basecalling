@@ -120,7 +120,7 @@ guppy_basecaller --disable_pings
   -i /path_to_fast5_directory 
   -s /path_to_ouput_directory 
   -c dna_r9.4.1_450bps_fast.cfg 
-  --qscore_filtering --min_score 7 
+  --min_qscore 7 
   --recursive -x 'cuda:0' 
   --num_callers 4 
   --gpu_runners_per_device 8 
@@ -142,7 +142,8 @@ guppy_basecaller --print_workflows | grep SQK-LSK110
 > **You can also assign the basecalling accuracy level- fast, hac (high accuracy) or sup (supper accuracy)- in the model**
 
  
-* --recursive = search for input files recursively.
+* --min_qscore = sets a minimum qscore threshold for the reads to pass  
+* --recursive = searches for input files recursively.
 * --records_per_fastq = maximum number of records per fastq file, 0 means use a single file
 * --flowcell = flow cell name
 * --kit = kit name
@@ -150,8 +151,8 @@ guppy_basecaller --print_workflows | grep SQK-LSK110
 * --compress_fastq = fastq files will be compressed
 * --num_callers = number of parallel basecallers to create 
 * --gpu_runners_per_device = number of neural network runners to create per CUDA device. Neural network is an algorithm used by guppy to interpret the electric signal data from the nanopore. Increasing this number may improve performance on GPUs with a large number of compute cores but will increase GPU memory use.
-* --chunks_per_runner = maximum chunks per runner. A chunk is 
-* --chunk_size = Stride intervals per chunk	
+* --chunks_per_runner = maximum chunks per runner 
+* --chunk_size = stride intervals per chunk	
 	
 > **All other flags can be found by running ‘guppy_basecaller --help’ command**
 
