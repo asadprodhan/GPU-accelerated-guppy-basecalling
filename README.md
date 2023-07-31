@@ -250,6 +250,13 @@ https://help.nanoporetech.com/en/articles/6627829-what-does-the-error-while-load
 
 
 
+Nanopore guidelines for installing Guppy
+
+
+
+https://community.nanoporetech.com/docs/prepare/library_prep_protocols/Guppy-protocol/v/gpb_2003_v1_revaw_14dec2018/linux-guppy
+
+
 
 ### **References**
 
