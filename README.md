@@ -236,7 +236,7 @@ guppy_barcoder --print_kits
 ```
 
 
-### **Possible errors**
+### **Potential errors**
 
 
 
