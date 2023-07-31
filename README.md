@@ -243,14 +243,14 @@ guppy_barcoder --print_kits
 > error while loading shared libraries: libcuda.so.1: cannot open shared object file
 
 
-See the suggestion below from the Nanopore community:
+See the suggestions below from the Nanopore community:
 
 
 https://help.nanoporetech.com/en/articles/6627829-what-does-the-error-while-loading-shared-libraries-libcuda-so-1-cannot-open-shared-object-file-message-mean-when-running-the
 
 
 
-Nanopore guidelines for installing Guppy
+Nanopore guidelines for installing Guppy:
 
 
 
